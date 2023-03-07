@@ -1,0 +1,7 @@
+yolov5_model:
+  path: /home/nvidia/catkin_ws/src/camera_perception/yolov5_tensorrtx/model/
+  name: cone_20220819.engine
+
+pub_predicted_image: true
+
+input_image_topic_name: /hikrobot_camera/rgb/compressed
